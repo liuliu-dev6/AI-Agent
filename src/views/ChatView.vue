@@ -10,7 +10,7 @@ import { useChatStore } from '@/stores/chat'
 import { useSettingStore } from '@/stores/setting'
 import { messageHandler } from '@/utils/messageHandler'
 import { getAgentCatalog, getOverview, runAgentWorkspace, createConversation, deleteConversation } from '@/services/api'
-import type { Agent, SendMessageRequest, ChatHistoryItem } from '@/types'
+import { Agent, SendMessageRequest, ChatHistoryItem } from '@/types'
 
 const router = useRouter()
 const chatStore = useChatStore()

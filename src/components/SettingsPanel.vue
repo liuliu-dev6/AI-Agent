@@ -2,7 +2,7 @@
 import { ref, watch, computed } from 'vue'
 import { useSettingStore, modelOptions, providerBaseURLs } from '@/stores/setting'
 import { QuestionFilled } from '@element-plus/icons-vue'
-import type { ModelProvider } from '@/types'
+import { ModelProvider } from '@/types'
 
 const settingStore = useSettingStore()
 

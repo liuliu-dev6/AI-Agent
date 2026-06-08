@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { IntentType } from '@/types'
+import { IntentType } from '@/types'
 import { INTENT_LABELS, INTENT_COLORS } from '@/types'
 
 const props = defineProps<{
